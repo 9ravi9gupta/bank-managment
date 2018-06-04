@@ -1,7 +1,7 @@
 from tkinter import *
 from bank_managment_bk import *
 #from tkinter import messagebox as m
-#import sqlite3 as s
+
 
 x=account() #creating object
 root=Tk()
