@@ -229,7 +229,7 @@ def SEARCH():
     #value=x.search_account(entry1.get())
 
     b1=Button(upper_frame,width=10,bg='orange',text='search',relief=RAISED,cursor='circle')
-    b1['command']=f   #caliing above function f()
+    b1['command']=f   #calling above function f()
     b1.grid(row=6,column=1,pady=10)
 
     b2=Button(upper_frame,width=10,bg='orange',text='exit',relief=RAISED,cursor='circle',command=root.destroy)
@@ -250,7 +250,7 @@ root.configure(bg='green')
 upper_frame=Frame(root,bd=1)
 upper_frame.pack(side=TOP)
 lower_frame=Frame(root,bg='orange',bd=2)
-lower_frame.pack()
+lower_frame.pack()                                              #consumer transfer national bank
 head=Label(upper_frame,width='20',height='3',fg='orange',text='CTNB BANK',font='Times 20 italic',bg='brown',relief=GROOVE)
 head.grid(row=0,column=0)
 #=======Options=================
@@ -283,4 +283,7 @@ root.mainloop()
  #/////problem//////////////
 #password login
 #view()
-#validate entry   
+#validate entry
+
+#____concept____:
+#Label is generally used to make any single input fill up and for any single line text.
